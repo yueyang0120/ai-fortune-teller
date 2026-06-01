@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ReadingHistoryEntity" representedClassName="ReadingHistoryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="analysisText" optional="YES" attributeType="String"/>
+        <attribute name="birthInfoJSON" optional="NO" attributeType="String"/>
+        <attribute name="chartDataJSON" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="errorMessage" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="status" optional="YES" attributeType="String" defaultValueString="completed"/>
+    </entity>
+</model>

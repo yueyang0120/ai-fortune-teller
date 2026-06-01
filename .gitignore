@@ -1,0 +1,13 @@
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Local secrets and machine-specific configuration.
+Config.xcconfig
+*.local.xcconfig
+*.local.plist
+
+# Xcode local package/cache noise.
+.swiftpm/xcode/package.xcworkspace/xcuserdata/

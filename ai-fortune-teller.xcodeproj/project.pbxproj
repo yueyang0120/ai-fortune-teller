@@ -6,6 +6,58 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		872D23F42EE0A96400F2FB47 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D23F32EE0A96400F2FB47 /* WidgetKit.framework */; };
+		872D23F62EE0A96400F2FB47 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D23F52EE0A96400F2FB47 /* SwiftUI.framework */; };
+		872D24032EE0A96600F2FB47 /* ziwei-widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 872D23F12EE0A96400F2FB47 /* ziwei-widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE290C792F799A7D00759DEC /* NotoSerifSC-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE290C6F2F799A7D00759DEC /* NotoSerifSC-SemiBold.ttf */; };
+		AE290C7A2F799A7D00759DEC /* NotoSerifSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE290C6B2F799A7D00759DEC /* NotoSerifSC-Bold.ttf */; };
+		AE290C7B2F799A7D00759DEC /* NotoSerifSC-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE290C6D2F799A7D00759DEC /* NotoSerifSC-Medium.ttf */; };
+		AE290C7C2F799A7D00759DEC /* NotoSerifSC-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE290C6C2F799A7D00759DEC /* NotoSerifSC-Light.ttf */; };
+		AE290C7D2F799A7D00759DEC /* NotoSerifSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE290C6E2F799A7D00759DEC /* NotoSerifSC-Regular.ttf */; };
+		AE290C7F2F799A7D00759DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE290C752F799A7D00759DEC /* Assets.xcassets */; };
+		AE290C802F799A7D00759DEC /* iztro.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = AE290C712F799A7D00759DEC /* iztro.bundle.js */; };
+		AE290C812F799A7D00759DEC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE290C732F799A7D00759DEC /* README.md */; };
+		AE290C822F799A7D00759DEC /* BirthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C4C2F799A7D00759DEC /* BirthProfile.swift */; };
+		AE290C832F799A7D00759DEC /* SynastryFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C642F799A7D00759DEC /* SynastryFlowView.swift */; };
+		AE290C842F799A7D00759DEC /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C452F799A7D00759DEC /* BackgroundTaskManager.swift */; };
+		AE290C852F799A7D00759DEC /* FortuneAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C5F2F799A7D00759DEC /* FortuneAnalysisView.swift */; };
+		AE290C862F799A7D00759DEC /* FortuneReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C4F2F799A7D00759DEC /* FortuneReading.swift */; };
+		AE290C872F799A7D00759DEC /* BirthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C4B2F799A7D00759DEC /* BirthInfo.swift */; };
+		AE290C882F799A7D00759DEC /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C422F799A7D00759DEC /* LocalizationManager.swift */; };
+		AE290C892F799A7D00759DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C392F799A7D00759DEC /* ContentView.swift */; };
+		AE290C8A2F799A7D00759DEC /* SynastryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C662F799A7D00759DEC /* SynastryResultView.swift */; };
+		AE290C8B2F799A7D00759DEC /* SolarTimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C462F799A7D00759DEC /* SolarTimeCalculator.swift */; };
+		AE290C8C2F799A7D00759DEC /* BirthInfoForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C5B2F799A7D00759DEC /* BirthInfoForm.swift */; };
+		AE290C8D2F799A7D00759DEC /* ProfileSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C622F799A7D00759DEC /* ProfileSelectionView.swift */; };
+		AE290C8E2F799A7D00759DEC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C442F799A7D00759DEC /* AuthenticationService.swift */; };
+		AE290C8F2F799A7D00759DEC /* ChartDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C5D2F799A7D00759DEC /* ChartDisplayView.swift */; };
+		AE290C902F799A7D00759DEC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C3A2F799A7D00759DEC /* Theme.swift */; };
+		AE290C912F799A7D00759DEC /* BirthProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C552F799A7D00759DEC /* BirthProfileService.swift */; };
+		AE290C922F799A7D00759DEC /* HomeCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C602F799A7D00759DEC /* HomeCarouselView.swift */; };
+		AE290C932F799A7D00759DEC /* ChartInsightsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C4D2F799A7D00759DEC /* ChartInsightsData.swift */; };
+		AE290C942F799A7D00759DEC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C3D2F799A7D00759DEC /* CoreDataManager.swift */; };
+		AE290C952F799A7D00759DEC /* DetailedPromptGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C562F799A7D00759DEC /* DetailedPromptGenerator.swift */; };
+		AE290C962F799A7D00759DEC /* SynastryInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C652F799A7D00759DEC /* SynastryInputView.swift */; };
+		AE290C972F799A7D00759DEC /* ZiWeiFortuneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C3B2F799A7D00759DEC /* ZiWeiFortuneApp.swift */; };
+		AE290C982F799A7D00759DEC /* ChartInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C5E2F799A7D00759DEC /* ChartInsightsView.swift */; };
+		AE290C992F799A7D00759DEC /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C482F799A7D00759DEC /* LanguageSelectionView.swift */; };
+		AE290C9A2F799A7D00759DEC /* ChinaCityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C4E2F799A7D00759DEC /* ChinaCityData.swift */; };
+		AE290C9B2F799A7D00759DEC /* FortuneTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C502F799A7D00759DEC /* FortuneTaskManager.swift */; };
+		AE290C9C2F799A7D00759DEC /* ZiWeiChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C592F799A7D00759DEC /* ZiWeiChartService.swift */; };
+		AE290C9D2F799A7D00759DEC /* BackendConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C402F799A7D00759DEC /* BackendConfig.swift */; };
+		AE290C9E2F799A7D00759DEC /* SynastryTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C672F799A7D00759DEC /* SynastryTypeSelectionView.swift */; };
+		AE290C9F2F799A7D00759DEC /* ReadingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C632F799A7D00759DEC /* ReadingHistoryView.swift */; };
+		AE290CA02F799A7D00759DEC /* PostAnalysisHintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C612F799A7D00759DEC /* PostAnalysisHintsView.swift */; };
+		AE290CA12F799A7D00759DEC /* ZiWeiFortune.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE290C3E2F799A7D00759DEC /* ZiWeiFortune.xcdatamodeld */; };
+		AE290CA22F799A7D00759DEC /* ReadingHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C582F799A7D00759DEC /* ReadingHistoryService.swift */; };
+		AE290CA32F799A7D00759DEC /* ReadingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C512F799A7D00759DEC /* ReadingHistory.swift */; };
+		AE290CA42F799A7D00759DEC /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C5C2F799A7D00759DEC /* CategorySelectionView.swift */; };
+		AE290CA52F799A7D00759DEC /* ZiWeiChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C532F799A7D00759DEC /* ZiWeiChart.swift */; };
+		AE290CA62F799A7D00759DEC /* FortuneAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C572F799A7D00759DEC /* FortuneAnalyzerService.swift */; };
+		AE290CA72F799A7D00759DEC /* SynastryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE290C522F799A7D00759DEC /* SynastryInfo.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		872D221D2ED4BABA00F2FB47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,28 +73,104 @@
 			remoteGlobalIDString = 872D220D2ED4BAB800F2FB47;
 			remoteInfo = "ai-fortune-teller";
 		};
+		872D24012EE0A96600F2FB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872D22062ED4BAB800F2FB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872D23F02EE0A96400F2FB47;
+			remoteInfo = "ziwei-widgetExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		872D24082EE0A96600F2FB47 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				872D24032EE0A96600F2FB47 /* ziwei-widgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		872D220E2ED4BAB800F2FB47 /* ai-fortune-teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ai-fortune-teller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		872D221C2ED4BABA00F2FB47 /* ai-fortune-tellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ai-fortune-tellerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		872D22262ED4BABA00F2FB47 /* ai-fortune-tellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ai-fortune-tellerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872D23B12ED4C74100F2FB47 /* Config.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = Config.xcconfig.example; sourceTree = "<group>"; };
+		872D23F12EE0A96400F2FB47 /* ziwei-widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ziwei-widgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872D23F32EE0A96400F2FB47 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		872D23F52EE0A96400F2FB47 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AE290BEC2F79903500759DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE290C392F799A7D00759DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE290C3A2F799A7D00759DEC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AE290C3B2F799A7D00759DEC /* ZiWeiFortuneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiWeiFortuneApp.swift; sourceTree = "<group>"; };
+		AE290C3D2F799A7D00759DEC /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		AE290C402F799A7D00759DEC /* BackendConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendConfig.swift; sourceTree = "<group>"; };
+		AE290C422F799A7D00759DEC /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		AE290C442F799A7D00759DEC /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		AE290C452F799A7D00759DEC /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		AE290C462F799A7D00759DEC /* SolarTimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTimeCalculator.swift; sourceTree = "<group>"; };
+		AE290C482F799A7D00759DEC /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		AE290C4B2F799A7D00759DEC /* BirthInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthInfo.swift; sourceTree = "<group>"; };
+		AE290C4C2F799A7D00759DEC /* BirthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthProfile.swift; sourceTree = "<group>"; };
+		AE290C4D2F799A7D00759DEC /* ChartInsightsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInsightsData.swift; sourceTree = "<group>"; };
+		AE290C4E2F799A7D00759DEC /* ChinaCityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaCityData.swift; sourceTree = "<group>"; };
+		AE290C4F2F799A7D00759DEC /* FortuneReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneReading.swift; sourceTree = "<group>"; };
+		AE290C502F799A7D00759DEC /* FortuneTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTaskManager.swift; sourceTree = "<group>"; };
+		AE290C512F799A7D00759DEC /* ReadingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistory.swift; sourceTree = "<group>"; };
+		AE290C522F799A7D00759DEC /* SynastryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynastryInfo.swift; sourceTree = "<group>"; };
+		AE290C532F799A7D00759DEC /* ZiWeiChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiWeiChart.swift; sourceTree = "<group>"; };
+		AE290C552F799A7D00759DEC /* BirthProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthProfileService.swift; sourceTree = "<group>"; };
+		AE290C562F799A7D00759DEC /* DetailedPromptGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPromptGenerator.swift; sourceTree = "<group>"; };
+		AE290C572F799A7D00759DEC /* FortuneAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneAnalyzerService.swift; sourceTree = "<group>"; };
+		AE290C582F799A7D00759DEC /* ReadingHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistoryService.swift; sourceTree = "<group>"; };
+		AE290C592F799A7D00759DEC /* ZiWeiChartService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiWeiChartService.swift; sourceTree = "<group>"; };
+		AE290C5B2F799A7D00759DEC /* BirthInfoForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthInfoForm.swift; sourceTree = "<group>"; };
+		AE290C5C2F799A7D00759DEC /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
+		AE290C5D2F799A7D00759DEC /* ChartDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDisplayView.swift; sourceTree = "<group>"; };
+		AE290C5E2F799A7D00759DEC /* ChartInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInsightsView.swift; sourceTree = "<group>"; };
+		AE290C5F2F799A7D00759DEC /* FortuneAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneAnalysisView.swift; sourceTree = "<group>"; };
+		AE290C602F799A7D00759DEC /* HomeCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarouselView.swift; sourceTree = "<group>"; };
+		AE290C612F799A7D00759DEC /* PostAnalysisHintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAnalysisHintsView.swift; sourceTree = "<group>"; };
+		AE290C622F799A7D00759DEC /* ProfileSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectionView.swift; sourceTree = "<group>"; };
+		AE290C632F799A7D00759DEC /* ReadingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistoryView.swift; sourceTree = "<group>"; };
+		AE290C642F799A7D00759DEC /* SynastryFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynastryFlowView.swift; sourceTree = "<group>"; };
+		AE290C652F799A7D00759DEC /* SynastryInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynastryInputView.swift; sourceTree = "<group>"; };
+		AE290C662F799A7D00759DEC /* SynastryResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynastryResultView.swift; sourceTree = "<group>"; };
+		AE290C672F799A7D00759DEC /* SynastryTypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynastryTypeSelectionView.swift; sourceTree = "<group>"; };
+		AE290C6B2F799A7D00759DEC /* NotoSerifSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifSC-Bold.ttf"; sourceTree = "<group>"; };
+		AE290C6C2F799A7D00759DEC /* NotoSerifSC-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifSC-Light.ttf"; sourceTree = "<group>"; };
+		AE290C6D2F799A7D00759DEC /* NotoSerifSC-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifSC-Medium.ttf"; sourceTree = "<group>"; };
+		AE290C6E2F799A7D00759DEC /* NotoSerifSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifSC-Regular.ttf"; sourceTree = "<group>"; };
+		AE290C6F2F799A7D00759DEC /* NotoSerifSC-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifSC-SemiBold.ttf"; sourceTree = "<group>"; };
+		AE290C712F799A7D00759DEC /* iztro.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = iztro.bundle.js; sourceTree = "<group>"; };
+		AE290C732F799A7D00759DEC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE290C752F799A7D00759DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE290C762F799A7D00759DEC /* ZiWeiFortuneApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZiWeiFortuneApp.entitlements; sourceTree = "<group>"; };
+		AE290C782F799A7D00759DEC /* ZiWeiFortune.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZiWeiFortune.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		872D24042EE0A96600F2FB47 /* Exceptions for "ziwei-widget" folder in "ziwei-widgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 872D23F02EE0A96400F2FB47 /* ziwei-widgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		872D22102ED4BAB800F2FB47 /* ai-fortune-teller */ = {
+		872D23F72EE0A96400F2FB47 /* ziwei-widget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ai-fortune-teller";
-			sourceTree = "<group>";
-		};
-		872D221F2ED4BABA00F2FB47 /* ai-fortune-tellerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ai-fortune-tellerTests";
-			sourceTree = "<group>";
-		};
-		872D22292ED4BABA00F2FB47 /* ai-fortune-tellerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ai-fortune-tellerUITests";
+			exceptions = (
+				872D24042EE0A96600F2FB47 /* Exceptions for "ziwei-widget" folder in "ziwei-widgetExtension" target */,
+			);
+			path = "ziwei-widget";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,15 +197,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		872D23EE2EE0A96400F2FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872D23F62EE0A96400F2FB47 /* SwiftUI.framework in Frameworks */,
+				872D23F42EE0A96400F2FB47 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		872D22052ED4BAB800F2FB47 = {
 			isa = PBXGroup;
 			children = (
-				872D22102ED4BAB800F2FB47 /* ai-fortune-teller */,
-				872D221F2ED4BABA00F2FB47 /* ai-fortune-tellerTests */,
-				872D22292ED4BABA00F2FB47 /* ai-fortune-tellerUITests */,
+				AE290C772F799A7D00759DEC /* ai-fortune-teller */,
+				AE290BEC2F79903500759DEC /* Info.plist */,
+				872D23B12ED4C74100F2FB47 /* Config.xcconfig.example */,
+				872D23F72EE0A96400F2FB47 /* ziwei-widget */,
+				872D23F22EE0A96400F2FB47 /* Frameworks */,
 				872D220F2ED4BAB800F2FB47 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +227,184 @@
 				872D220E2ED4BAB800F2FB47 /* ai-fortune-teller.app */,
 				872D221C2ED4BABA00F2FB47 /* ai-fortune-tellerTests.xctest */,
 				872D22262ED4BABA00F2FB47 /* ai-fortune-tellerUITests.xctest */,
+				872D23F12EE0A96400F2FB47 /* ziwei-widgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		872D23F22EE0A96400F2FB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				872D23F32EE0A96400F2FB47 /* WidgetKit.framework */,
+				872D23F52EE0A96400F2FB47 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE290C3C2F799A7D00759DEC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C392F799A7D00759DEC /* ContentView.swift */,
+				AE290C3A2F799A7D00759DEC /* Theme.swift */,
+				AE290C3B2F799A7D00759DEC /* ZiWeiFortuneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AE290C3F2F799A7D00759DEC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C3D2F799A7D00759DEC /* CoreDataManager.swift */,
+				AE290C3E2F799A7D00759DEC /* ZiWeiFortune.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		AE290C412F799A7D00759DEC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C402F799A7D00759DEC /* BackendConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		AE290C432F799A7D00759DEC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C422F799A7D00759DEC /* LocalizationManager.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		AE290C472F799A7D00759DEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C442F799A7D00759DEC /* AuthenticationService.swift */,
+				AE290C452F799A7D00759DEC /* BackgroundTaskManager.swift */,
+				AE290C462F799A7D00759DEC /* SolarTimeCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE290C492F799A7D00759DEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C482F799A7D00759DEC /* LanguageSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE290C4A2F799A7D00759DEC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C412F799A7D00759DEC /* Config */,
+				AE290C432F799A7D00759DEC /* Localization */,
+				AE290C472F799A7D00759DEC /* Services */,
+				AE290C492F799A7D00759DEC /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AE290C542F799A7D00759DEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C4B2F799A7D00759DEC /* BirthInfo.swift */,
+				AE290C4C2F799A7D00759DEC /* BirthProfile.swift */,
+				AE290C4D2F799A7D00759DEC /* ChartInsightsData.swift */,
+				AE290C4E2F799A7D00759DEC /* ChinaCityData.swift */,
+				AE290C4F2F799A7D00759DEC /* FortuneReading.swift */,
+				AE290C502F799A7D00759DEC /* FortuneTaskManager.swift */,
+				AE290C512F799A7D00759DEC /* ReadingHistory.swift */,
+				AE290C522F799A7D00759DEC /* SynastryInfo.swift */,
+				AE290C532F799A7D00759DEC /* ZiWeiChart.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE290C5A2F799A7D00759DEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C552F799A7D00759DEC /* BirthProfileService.swift */,
+				AE290C562F799A7D00759DEC /* DetailedPromptGenerator.swift */,
+				AE290C572F799A7D00759DEC /* FortuneAnalyzerService.swift */,
+				AE290C582F799A7D00759DEC /* ReadingHistoryService.swift */,
+				AE290C592F799A7D00759DEC /* ZiWeiChartService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE290C682F799A7D00759DEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C5B2F799A7D00759DEC /* BirthInfoForm.swift */,
+				AE290C5C2F799A7D00759DEC /* CategorySelectionView.swift */,
+				AE290C5D2F799A7D00759DEC /* ChartDisplayView.swift */,
+				AE290C5E2F799A7D00759DEC /* ChartInsightsView.swift */,
+				AE290C5F2F799A7D00759DEC /* FortuneAnalysisView.swift */,
+				AE290C602F799A7D00759DEC /* HomeCarouselView.swift */,
+				AE290C612F799A7D00759DEC /* PostAnalysisHintsView.swift */,
+				AE290C622F799A7D00759DEC /* ProfileSelectionView.swift */,
+				AE290C632F799A7D00759DEC /* ReadingHistoryView.swift */,
+				AE290C642F799A7D00759DEC /* SynastryFlowView.swift */,
+				AE290C652F799A7D00759DEC /* SynastryInputView.swift */,
+				AE290C662F799A7D00759DEC /* SynastryResultView.swift */,
+				AE290C672F799A7D00759DEC /* SynastryTypeSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE290C692F799A7D00759DEC /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C542F799A7D00759DEC /* Models */,
+				AE290C5A2F799A7D00759DEC /* Services */,
+				AE290C682F799A7D00759DEC /* Views */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AE290C6A2F799A7D00759DEC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C4A2F799A7D00759DEC /* Common */,
+				AE290C692F799A7D00759DEC /* Fortune */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AE290C702F799A7D00759DEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C6B2F799A7D00759DEC /* NotoSerifSC-Bold.ttf */,
+				AE290C6C2F799A7D00759DEC /* NotoSerifSC-Light.ttf */,
+				AE290C6D2F799A7D00759DEC /* NotoSerifSC-Medium.ttf */,
+				AE290C6E2F799A7D00759DEC /* NotoSerifSC-Regular.ttf */,
+				AE290C6F2F799A7D00759DEC /* NotoSerifSC-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AE290C742F799A7D00759DEC /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C712F799A7D00759DEC /* iztro.bundle.js */,
+				AE290C732F799A7D00759DEC /* README.md */,
+			);
+			path = JavaScript;
+			sourceTree = "<group>";
+		};
+		AE290C772F799A7D00759DEC /* ai-fortune-teller */ = {
+			isa = PBXGroup;
+			children = (
+				AE290C3C2F799A7D00759DEC /* App */,
+				AE290C3F2F799A7D00759DEC /* CoreData */,
+				AE290C6A2F799A7D00759DEC /* Features */,
+				AE290C702F799A7D00759DEC /* Fonts */,
+				AE290C742F799A7D00759DEC /* JavaScript */,
+				AE290C752F799A7D00759DEC /* Assets.xcassets */,
+				AE290C762F799A7D00759DEC /* ZiWeiFortuneApp.entitlements */,
+			);
+			path = "ai-fortune-teller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,13 +417,12 @@
 				872D220A2ED4BAB800F2FB47 /* Sources */,
 				872D220B2ED4BAB800F2FB47 /* Frameworks */,
 				872D220C2ED4BAB800F2FB47 /* Resources */,
+				872D24082EE0A96600F2FB47 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				872D22102ED4BAB800F2FB47 /* ai-fortune-teller */,
+				872D24022EE0A96600F2FB47 /* PBXTargetDependency */,
 			);
 			name = "ai-fortune-teller";
 			packageProductDependencies = (
@@ -130,9 +444,6 @@
 			dependencies = (
 				872D221E2ED4BABA00F2FB47 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				872D221F2ED4BABA00F2FB47 /* ai-fortune-tellerTests */,
-			);
 			name = "ai-fortune-tellerTests";
 			packageProductDependencies = (
 			);
@@ -153,15 +464,34 @@
 			dependencies = (
 				872D22282ED4BABA00F2FB47 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				872D22292ED4BABA00F2FB47 /* ai-fortune-tellerUITests */,
-			);
 			name = "ai-fortune-tellerUITests";
 			packageProductDependencies = (
 			);
 			productName = "ai-fortune-tellerUITests";
 			productReference = 872D22262ED4BABA00F2FB47 /* ai-fortune-tellerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		872D23F02EE0A96400F2FB47 /* ziwei-widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872D24052EE0A96600F2FB47 /* Build configuration list for PBXNativeTarget "ziwei-widgetExtension" */;
+			buildPhases = (
+				872D23ED2EE0A96400F2FB47 /* Sources */,
+				872D23EE2EE0A96400F2FB47 /* Frameworks */,
+				872D23EF2EE0A96400F2FB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				872D23F72EE0A96400F2FB47 /* ziwei-widget */,
+			);
+			name = "ziwei-widgetExtension";
+			packageProductDependencies = (
+			);
+			productName = "ziwei-widgetExtension";
+			productReference = 872D23F12EE0A96400F2FB47 /* ziwei-widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,6 +514,10 @@
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = 872D220D2ED4BAB800F2FB47;
 					};
+					872D23F02EE0A96400F2FB47 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
 				};
 			};
 			buildConfigurationList = 872D22092ED4BAB800F2FB47 /* Build configuration list for PBXProject "ai-fortune-teller" */;
@@ -203,6 +537,7 @@
 				872D220D2ED4BAB800F2FB47 /* ai-fortune-teller */,
 				872D221B2ED4BABA00F2FB47 /* ai-fortune-tellerTests */,
 				872D22252ED4BABA00F2FB47 /* ai-fortune-tellerUITests */,
+				872D23F02EE0A96400F2FB47 /* ziwei-widgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +547,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE290C792F799A7D00759DEC /* NotoSerifSC-SemiBold.ttf in Resources */,
+				AE290C7A2F799A7D00759DEC /* NotoSerifSC-Bold.ttf in Resources */,
+				AE290C7B2F799A7D00759DEC /* NotoSerifSC-Medium.ttf in Resources */,
+				AE290C7C2F799A7D00759DEC /* NotoSerifSC-Light.ttf in Resources */,
+				AE290C7D2F799A7D00759DEC /* NotoSerifSC-Regular.ttf in Resources */,
+				AE290C7F2F799A7D00759DEC /* Assets.xcassets in Resources */,
+				AE290C802F799A7D00759DEC /* iztro.bundle.js in Resources */,
+				AE290C812F799A7D00759DEC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +572,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		872D23EF2EE0A96400F2FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,6 +586,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE290C822F799A7D00759DEC /* BirthProfile.swift in Sources */,
+				AE290C832F799A7D00759DEC /* SynastryFlowView.swift in Sources */,
+				AE290C842F799A7D00759DEC /* BackgroundTaskManager.swift in Sources */,
+				AE290C852F799A7D00759DEC /* FortuneAnalysisView.swift in Sources */,
+				AE290C862F799A7D00759DEC /* FortuneReading.swift in Sources */,
+				AE290C872F799A7D00759DEC /* BirthInfo.swift in Sources */,
+				AE290C882F799A7D00759DEC /* LocalizationManager.swift in Sources */,
+				AE290C892F799A7D00759DEC /* ContentView.swift in Sources */,
+				AE290C8A2F799A7D00759DEC /* SynastryResultView.swift in Sources */,
+				AE290C8B2F799A7D00759DEC /* SolarTimeCalculator.swift in Sources */,
+				AE290C8C2F799A7D00759DEC /* BirthInfoForm.swift in Sources */,
+				AE290C8D2F799A7D00759DEC /* ProfileSelectionView.swift in Sources */,
+				AE290C8E2F799A7D00759DEC /* AuthenticationService.swift in Sources */,
+				AE290C8F2F799A7D00759DEC /* ChartDisplayView.swift in Sources */,
+				AE290C902F799A7D00759DEC /* Theme.swift in Sources */,
+				AE290C912F799A7D00759DEC /* BirthProfileService.swift in Sources */,
+				AE290C922F799A7D00759DEC /* HomeCarouselView.swift in Sources */,
+				AE290C932F799A7D00759DEC /* ChartInsightsData.swift in Sources */,
+				AE290C942F799A7D00759DEC /* CoreDataManager.swift in Sources */,
+				AE290C952F799A7D00759DEC /* DetailedPromptGenerator.swift in Sources */,
+				AE290C962F799A7D00759DEC /* SynastryInputView.swift in Sources */,
+				AE290C972F799A7D00759DEC /* ZiWeiFortuneApp.swift in Sources */,
+				AE290C982F799A7D00759DEC /* ChartInsightsView.swift in Sources */,
+				AE290C992F799A7D00759DEC /* LanguageSelectionView.swift in Sources */,
+				AE290C9A2F799A7D00759DEC /* ChinaCityData.swift in Sources */,
+				AE290C9B2F799A7D00759DEC /* FortuneTaskManager.swift in Sources */,
+				AE290C9C2F799A7D00759DEC /* ZiWeiChartService.swift in Sources */,
+				AE290C9D2F799A7D00759DEC /* BackendConfig.swift in Sources */,
+				AE290C9E2F799A7D00759DEC /* SynastryTypeSelectionView.swift in Sources */,
+				AE290C9F2F799A7D00759DEC /* ReadingHistoryView.swift in Sources */,
+				AE290CA02F799A7D00759DEC /* PostAnalysisHintsView.swift in Sources */,
+				AE290CA12F799A7D00759DEC /* ZiWeiFortune.xcdatamodeld in Sources */,
+				AE290CA22F799A7D00759DEC /* ReadingHistoryService.swift in Sources */,
+				AE290CA32F799A7D00759DEC /* ReadingHistory.swift in Sources */,
+				AE290CA42F799A7D00759DEC /* CategorySelectionView.swift in Sources */,
+				AE290CA52F799A7D00759DEC /* ZiWeiChart.swift in Sources */,
+				AE290CA62F799A7D00759DEC /* FortuneAnalyzerService.swift in Sources */,
+				AE290CA72F799A7D00759DEC /* SynastryInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +635,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		872D22222ED4BABA00F2FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872D23ED2EE0A96400F2FB47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,6 +660,11 @@
 			isa = PBXTargetDependency;
 			target = 872D220D2ED4BAB800F2FB47 /* ai-fortune-teller */;
 			targetProxy = 872D22272ED4BABA00F2FB47 /* PBXContainerItemProxy */;
+		};
+		872D24022EE0A96600F2FB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 872D23F02EE0A96400F2FB47 /* ziwei-widgetExtension */;
+			targetProxy = 872D24012EE0A96600F2FB47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,14 +785,16 @@
 		};
 		872D22312ED4BABA00F2FB47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872D23B12ED4C74100F2FB47 /* Config.xcconfig.example */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ai-fortune-teller/ai_fortune_teller.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ai-fortune-teller/ZiWeiFortuneApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = XG8T6Y6JRA;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "紫微天命";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -408,7 +810,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyue.ai-fortune-teller";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyue.lab.ziwei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -422,14 +824,16 @@
 		};
 		872D22322ED4BABA00F2FB47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872D23B12ED4C74100F2FB47 /* Config.xcconfig.example */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ai-fortune-teller/ai_fortune_teller.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ai-fortune-teller/ZiWeiFortuneApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = XG8T6Y6JRA;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "紫微天命";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -445,7 +849,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyue.ai-fortune-teller";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyue.lab.ziwei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -462,7 +866,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -484,7 +888,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -505,7 +909,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -526,7 +930,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -540,6 +944,70 @@
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = "ai-fortune-teller";
 				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		872D24062EE0A96600F2FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = XG8T6Y6JRA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ziwei-widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "紫微天命";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyue.lab.ziwei.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ziwei-widget/ziwei-widgetExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		872D24072EE0A96600F2FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = XG8T6Y6JRA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ziwei-widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "紫微天命";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyue.lab.ziwei.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ziwei-widget/ziwei-widgetExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -582,7 +1050,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		872D24052EE0A96600F2FB47 /* Build configuration list for PBXNativeTarget "ziwei-widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872D24062EE0A96600F2FB47 /* Debug */,
+				872D24072EE0A96600F2FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE290C3E2F799A7D00759DEC /* ZiWeiFortune.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE290C782F799A7D00759DEC /* ZiWeiFortune.xcdatamodel */,
+			);
+			currentVersion = AE290C782F799A7D00759DEC /* ZiWeiFortune.xcdatamodel */;
+			path = ZiWeiFortune.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 872D22062ED4BAB800F2FB47 /* Project object */;
 }
