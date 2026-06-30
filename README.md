@@ -4,6 +4,16 @@ AI-native SwiftUI app for personalized chart interpretation. It combines a deter
 
 The product goal is to make a complex charting system usable through a modern AI interface: deterministic calculation provides the factual structure, and LLMs turn that structure into readable, personalized guidance.
 
+## At a Glance
+
+| Area | Implementation signal |
+| --- | --- |
+| Product problem | Make a complex deterministic charting system usable through a modern AI-native mobile flow. |
+| Native app layer | SwiftUI onboarding, profile input, chart display, relationship analysis, history, localization, and widget surface. |
+| Domain bridge | JavaScriptCore integration with a bundled rule-based chart engine. |
+| AI layer | Provider abstraction across Gemini, OpenAI, and DeepSeek with structured prompt generation. |
+| FDE relevance | Shows end-to-end product execution: ambiguous user need -> deterministic engine -> AI interpretation -> native app experience. |
+
 ## Product Concept
 
 The prototype uses Zi Wei Dou Shu, a traditional rule-based charting system, as the domain engine. Because the chart itself follows deterministic rules, it cannot be treated as free-form model output. The app therefore separates deterministic computation from generative interpretation:
@@ -41,6 +51,16 @@ Birth profile input
 ```
 
 The key design choice is to keep deterministic domain logic and LLM interpretation separate. That makes the app easier to debug, easier to extend to new providers, and less dependent on opaque model output for the underlying chart computation.
+
+## Review Guide
+
+If you are scanning this repository, the most relevant implementation areas are:
+
+- `Features/Fortune/Services/ZiWeiChartService.swift`: native-to-JavaScriptCore bridge and deterministic chart generation.
+- `Features/Fortune/Services/DetailedPromptGenerator.swift`: prompt construction from structured chart context.
+- `Features/Fortune/Services/FortuneAnalyzerService.swift`: multi-provider AI integration and fallback logic.
+- `CoreData/CoreDataManager.swift` and `Features/Fortune/Services/ReadingHistoryService.swift`: local persistence for profiles, readings, and in-progress tasks.
+- `ziwei-widget/FortuneWidget.swift`: widget surface for a secondary iOS experience.
 
 ## Repository Structure
 
@@ -86,3 +106,5 @@ DEEPSEEK_API_KEY=...
 This is a prototype, not a production App Store release. Its value as a portfolio project is the end-to-end product execution: native iOS UI, local persistence, JavaScript bridging, structured domain computation, multi-provider AI integration, prompt orchestration, and clean local-secret handling.
 
 The strongest positioning is: an AI-native iOS app built end to end, using a concrete rule-based domain to demonstrate how deterministic systems and LLMs can be composed into a real product experience.
+
+For an FDE-style review, the important signal is not the astrology domain itself. The useful signal is the architecture pattern: take a rule-heavy domain, expose it through a usable product flow, and use LLMs only where they add synthesis and explanation rather than replacing the underlying deterministic computation.
